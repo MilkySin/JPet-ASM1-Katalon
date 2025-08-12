@@ -17,3 +17,17 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://petstore.octoperf.com/')
+
+WebUI.click(findTestObject('Object Repository/Category test suite Objects/Category left side nav test/a'))
+
+WebUI.click(findTestObject('Object Repository/Category test suite Objects/Category left side nav test/img'))
+
+WebUI.click(findTestObject('Object Repository/Category test suite Objects/Category left side nav test/table'))
+
+WebUI.verifyElementPresent(findTestObject('Category test suite Objects/Category left side nav test/table'), 0)
+
+WebUI.closeBrowser()
+
