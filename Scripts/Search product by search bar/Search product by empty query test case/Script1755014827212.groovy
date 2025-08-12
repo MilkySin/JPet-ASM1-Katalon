@@ -21,15 +21,15 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://petstore.octoperf.com/')
 
-WebUI.click(findTestObject('Object Repository/Search Bar test empty query/a'))
+WebUI.click(findTestObject('Object Repository/Search Bar test suite Objects/Search Bar test empty query/a'))
 
-WebUI.click(findTestObject('Object Repository/Search Bar test empty query/input__searchProducts'))
+WebUI.click(findTestObject('Object Repository/Search Bar test suite Objects/Search Bar test empty query/input__searchProducts'))
 
-WebUI.click(findTestObject('Object Repository/Search Bar test empty query/li'))
+WebUI.click(findTestObject('Object Repository/Search Bar test suite Objects/Search Bar test empty query/li'))
 
-WebUI.verifyElementPresent(findTestObject('Search Bar test empty query/li'), 0)
+WebUI.verifyElementPresent(findTestObject('Search Bar test suite Objects/Search Bar test empty query/li'), 0)
 
-WebUI.verifyElementText(findTestObject('Search Bar test empty query/li'), 'Please enter a keyword to search for, then press the search button.')
+WebUI.verifyElementText(findTestObject('Search Bar test suite Objects/Search Bar test empty query/li'), 'Please enter a keyword to search for, then press the search button.')
 
 WebUI.closeBrowser()
 

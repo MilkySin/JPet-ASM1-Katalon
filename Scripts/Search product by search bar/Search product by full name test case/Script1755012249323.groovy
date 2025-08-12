@@ -21,20 +21,20 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://petstore.octoperf.com/')
 
-WebUI.click(findTestObject('Object Repository/Page_JPetStore Search Bar Test/a'))
+WebUI.click(findTestObject('Object Repository/Search Bar test suite Objects/Page_JPetStore Search Bar Test/a'))
 
-WebUI.setText(findTestObject('Object Repository/Page_JPetStore Search Bar Test/input__keyword'), 'Fish')
+WebUI.setText(findTestObject('Object Repository/Search Bar test suite Objects/Page_JPetStore Search Bar Test/input__keyword'), 'Fish')
 
-WebUI.click(findTestObject('Object Repository/Page_JPetStore Search Bar Test/input__searchProducts'))
+WebUI.click(findTestObject('Object Repository/Search Bar test suite Objects/Page_JPetStore Search Bar Test/input__searchProducts'))
 
-WebUI.click(findTestObject('Object Repository/Page_JPetStore Search Bar Test/td'))
+WebUI.click(findTestObject('Object Repository/Search Bar test suite Objects/Page_JPetStore Search Bar Test/td'))
 
-WebUI.click(findTestObject('Object Repository/Page_JPetStore Search Bar Test/td_1'))
+WebUI.click(findTestObject('Object Repository/Search Bar test suite Objects/Page_JPetStore Search Bar Test/td_1'))
 
 // Get the text from td and td_1
-String tdText = WebUI.getText(findTestObject('Object Repository/Page_JPetStore Search Bar Test/td'))
+String tdText = WebUI.getText(findTestObject('Object Repository/Search Bar test suite Objects/Page_JPetStore Search Bar Test/td'))
 
-String td1Text = WebUI.getText(findTestObject('Object Repository/Page_JPetStore Search Bar Test/td_1'))
+String td1Text = WebUI.getText(findTestObject('Object Repository/Search Bar test suite Objects/Page_JPetStore Search Bar Test/td_1'))
 
 // Verify both contain 'Fish'
 WebUI.verifyMatch(tdText.toLowerCase(), '.*fish.*', true)

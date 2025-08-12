@@ -21,24 +21,24 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://petstore.octoperf.com/')
 
-WebUI.click(findTestObject('Object Repository/Search Bar Test partial name/a'))
+WebUI.click(findTestObject('Object Repository/Search Bar test suite Objects/Search Bar Test partial name/a'))
 
-WebUI.setText(findTestObject('Object Repository/Search Bar Test partial name/input__keyword'), 'Fi')
+WebUI.setText(findTestObject('Object Repository/Search Bar test suite Objects/Search Bar Test partial name/input__keyword'), 'Fi')
 
-WebUI.click(findTestObject('Object Repository/Search Bar Test partial name/input__searchProducts'))
+WebUI.click(findTestObject('Object Repository/Search Bar test suite Objects/Search Bar Test partial name/input__searchProducts'))
 
-WebUI.click(findTestObject('Object Repository/Search Bar Test partial name/td'))
+WebUI.click(findTestObject('Object Repository/Search Bar test suite Objects/Search Bar Test partial name/td'))
 
-WebUI.click(findTestObject('Object Repository/Search Bar Test partial name/td_1'))
+WebUI.click(findTestObject('Object Repository/Search Bar test suite Objects/Search Bar Test partial name/td_1'))
 
-WebUI.click(findTestObject('Object Repository/Search Bar Test partial name/td_2'))
+WebUI.click(findTestObject('Object Repository/Search Bar test suite Objects/Search Bar Test partial name/td_2'))
 
 // Get the text from td and td_1
-String tdText = WebUI.getText(findTestObject('Object Repository/Search Bar Test partial name/td'))
+String tdText = WebUI.getText(findTestObject('Object Repository/Search Bar test suite Objects/Search Bar Test partial name/td'))
 
-String td1Text = WebUI.getText(findTestObject('Object Repository/Search Bar Test partial name/td_1'))
+String td1Text = WebUI.getText(findTestObject('Object Repository/Search Bar test suite Objects/Search Bar Test partial name/td_1'))
 
-String td2Text = WebUI.getText(findTestObject('Object Repository/Search Bar Test partial name/td_2'))
+String td2Text = WebUI.getText(findTestObject('Object Repository/Search Bar test suite Objects/Search Bar Test partial name/td_2'))
 
 // Verify both contain 'Fish'
 WebUI.verifyMatch(tdText.toLowerCase(), '.*fi.*', true)

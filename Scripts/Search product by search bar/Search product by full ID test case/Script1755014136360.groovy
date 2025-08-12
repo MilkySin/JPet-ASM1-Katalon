@@ -21,15 +21,15 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://petstore.octoperf.com/')
 
-WebUI.click(findTestObject('Object Repository/Page_JPetStore Demo/a'))
+WebUI.click(findTestObject('Object Repository/Search Bar test suite Objects/Page_JPetStore Demo/a'))
 
-WebUI.setText(findTestObject('Object Repository/Page_JPetStore Demo/input__keyword'), 'AV-CB-01')
+WebUI.setText(findTestObject('Object Repository/Search Bar test suite Objects/Page_JPetStore Demo/input__keyword'), 'AV-CB-01')
 
-WebUI.click(findTestObject('Object Repository/Page_JPetStore Demo/input__searchProducts'))
+WebUI.click(findTestObject('Object Repository/Search Bar test suite Objects/Page_JPetStore Demo/input__searchProducts'))
 
-WebUI.click(findTestObject('Object Repository/Page_JPetStore Demo/table'))
+WebUI.click(findTestObject('Object Repository/Search Bar test suite Objects/Page_JPetStore Demo/table'))
 
-String tableText = WebUI.getText(findTestObject('Object Repository/Page_JPetStore Demo/table'))
+String tableText = WebUI.getText(findTestObject('Object Repository/Search Bar test suite Objects/Page_JPetStore Demo/table'))
 
 assert tableText.contains('AV-CB-01')
 

@@ -21,11 +21,11 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://petstore.octoperf.com/')
 
-WebUI.click(findTestObject('Object Repository/Search Bar incorrect name/a'))
+WebUI.click(findTestObject('Object Repository/Search Bar test suite Objects/Search Bar incorrect name/a'))
 
-WebUI.setText(findTestObject('Object Repository/Search Bar incorrect name/input__keyword'), 'dogfood')
+WebUI.setText(findTestObject('Object Repository/Search Bar test suite Objects/Search Bar incorrect name/input__keyword'), 'dogfood')
 
-WebUI.click(findTestObject('Object Repository/Search Bar incorrect name/input__searchProducts'))
+WebUI.click(findTestObject('Object Repository/Search Bar test suite Objects/Search Bar incorrect name/input__searchProducts'))
 
 WebUI.verifyTextPresent('No product found', false)
 
