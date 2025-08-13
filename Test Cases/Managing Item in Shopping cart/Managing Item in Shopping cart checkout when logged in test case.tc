@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Managing Item in Shopping cart checkout when logged in test case</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c3e40386-c026-454f-bec0-d7cc4cf3278a</testCaseGuid>
+</TestCaseEntity>

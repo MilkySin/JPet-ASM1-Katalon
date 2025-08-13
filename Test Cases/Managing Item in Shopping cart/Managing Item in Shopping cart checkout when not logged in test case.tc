@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Managing Item in Shopping cart checkout when not logged in test case</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>678e5f3e-9d6b-404b-b86c-54b098779f00</testCaseGuid>
+</TestCaseEntity>
