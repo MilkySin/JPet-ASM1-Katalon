@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Add product to Shopping cart from image and item ID test case</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>444a71ba-4154-4f26-b61b-7e0f7054c242</testCaseGuid>
+</TestCaseEntity>
