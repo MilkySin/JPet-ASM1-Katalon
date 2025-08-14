@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>table</name>
+   <name>td_1</name>
    <tag></tag>
-   <elementGuidId>1fb442bd-f6bb-4322-a23a-825bce6431f0</elementGuidId>
+   <elementGuidId>3037020b-c873-4bf4-b49c-11093be362ee</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>table</value>
+         <key>XPATH</key>
+         <value>//div[@id='Catalog']/table/tbody/tr[2]/td</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='Catalog']/table</value>
+         <key>CSS</key>
+         <value>tr:nth-of-type(2) > td</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=table</value>
+         <value>internal:role=cell[name=&quot;EST-1&quot;i]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -28,96 +28,63 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>table</value>
-      <webElementGuid>e452277e-dcdd-45b9-9626-97131cda0447</webElementGuid>
+      <value>td</value>
+      <webElementGuid>93313f3e-8b43-4d2e-91b9-6c3b0b90bcec</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>
-	
-		 
-		Product ID
-		Name
-	
-	
-	
-		
-	
-
-</value>
-      <webElementGuid>160b937f-aba8-4231-b438-2a80f465ed7f</webElementGuid>
+      <value> EST-1 </value>
+      <webElementGuid>588216cd-82d7-450c-a49c-a628205ce8d6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;Catalog&quot;)/table[1]</value>
-      <webElementGuid>2750aca6-0ab7-466a-9cb5-dcbfd648592d</webElementGuid>
+      <value>id(&quot;Catalog&quot;)/table[1]/tbody[1]/tr[2]/td[1]</value>
+      <webElementGuid>d29733d6-9ba5-479e-807d-2850e9dbd34b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='Catalog']/table</value>
-      <webElementGuid>66e0c978-b994-4616-9207-2283f4c8c628</webElementGuid>
+      <value>//div[@id='Catalog']/table/tbody/tr[2]/td</value>
+      <webElementGuid>4d55c89f-f355-4f0e-8dbd-2916d374f4dd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Return to Main Menu'])[1]/following::table[1]</value>
-      <webElementGuid>5a18648e-e8b9-4c50-9eb6-6dad4d5a774e</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Salt Water fish from Australia'])[1]/following::td[1]</value>
+      <webElementGuid>053bb47b-e82a-48a0-a0b8-2235b1a3a920</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='?'])[1]/following::table[1]</value>
-      <webElementGuid>343eab16-abf5-4230-ba13-07219683e040</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Return to FI-SW-01'])[1]/following::td[2]</value>
+      <webElementGuid>2ddbbfc8-1d77-4e21-8858-929ec707e04e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//table</value>
-      <webElementGuid>d48fe4f4-9943-4621-ab34-e9cb708e6abc</webElementGuid>
+      <value>//tr[2]/td</value>
+      <webElementGuid>77ab331e-371a-423a-9986-371a86d00082</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//table[(text() = '&#xd;
-	&#xd;
-		 &#xd;
-		Product ID&#xd;
-		Name&#xd;
-	&#xd;
-	&#xd;
-	&#xd;
-		&#xd;
-	&#xd;
-&#xd;
-' or . = '&#xd;
-	&#xd;
-		 &#xd;
-		Product ID&#xd;
-		Name&#xd;
-	&#xd;
-	&#xd;
-	&#xd;
-		&#xd;
-	&#xd;
-&#xd;
-')]</value>
-      <webElementGuid>48e655cf-3a01-45c7-95ff-a3669da215c1</webElementGuid>
+      <value>//td[(text() = ' EST-1 ' or . = ' EST-1 ')]</value>
+      <webElementGuid>a66e1d72-a731-44a9-8a2d-bd6e2863285d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

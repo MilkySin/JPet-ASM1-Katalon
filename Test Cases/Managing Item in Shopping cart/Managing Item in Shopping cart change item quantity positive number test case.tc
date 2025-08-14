@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Managing Item in Shopping cart change item quantity positive number test case</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>8bd57a37-d42d-4cfd-8d82-c746c5b7e1c2</testCaseGuid>
+</TestCaseEntity>

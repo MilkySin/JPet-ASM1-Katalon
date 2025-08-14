@@ -3,15 +3,15 @@
    <description></description>
    <name>table</name>
    <tag></tag>
-   <elementGuidId>1fb442bd-f6bb-4322-a23a-825bce6431f0</elementGuidId>
+   <elementGuidId>ad453d5e-d43d-4348-8b22-209ac94f8244</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>table</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//div[@id='Catalog']/table</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>table</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>table</value>
-      <webElementGuid>e452277e-dcdd-45b9-9626-97131cda0447</webElementGuid>
+      <webElementGuid>71c73fce-d6f3-4a26-ae24-1cd8d2234f11</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,17 +38,34 @@
       <type>Main</type>
       <value>
 	
-		 
-		Product ID
-		Name
+		Salt Water fish from Australia
 	
+	
+		 EST-1 
+	
+	
+		 Large
+		 
+		 
+		Angelfish 
+	
+	
+		Angelfish
 	
 	
 		
+        Back ordered.
+       
+	
+	
+		$16.50
 	
 
+	
+		Add to Cart
+	
 </value>
-      <webElementGuid>160b937f-aba8-4231-b438-2a80f465ed7f</webElementGuid>
+      <webElementGuid>1105cfc3-119a-486a-a8fb-dec3c8608cdc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -56,7 +73,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;Catalog&quot;)/table[1]</value>
-      <webElementGuid>2750aca6-0ab7-466a-9cb5-dcbfd648592d</webElementGuid>
+      <webElementGuid>1f3e9d2f-af78-4737-a81c-cf2b91bd93ba</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -64,15 +81,15 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='Catalog']/table</value>
-      <webElementGuid>66e0c978-b994-4616-9207-2283f4c8c628</webElementGuid>
+      <webElementGuid>0253ed12-ffc2-4aec-97b5-d9f32fa8669e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Return to Main Menu'])[1]/following::table[1]</value>
-      <webElementGuid>5a18648e-e8b9-4c50-9eb6-6dad4d5a774e</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Return to FI-SW-01'])[1]/following::table[1]</value>
+      <webElementGuid>93401aa4-ecc4-404d-88fe-accf03375894</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -80,7 +97,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='?'])[1]/following::table[1]</value>
-      <webElementGuid>343eab16-abf5-4230-ba13-07219683e040</webElementGuid>
+      <webElementGuid>073a5fd0-0037-458d-adcb-416be3de3d7f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -88,7 +105,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//table</value>
-      <webElementGuid>d48fe4f4-9943-4621-ab34-e9cb708e6abc</webElementGuid>
+      <webElementGuid>00514d9c-f43d-4cb2-8e9a-99d3fd47a335</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -97,27 +114,61 @@
       <type>Main</type>
       <value>//table[(text() = '&#xd;
 	&#xd;
-		 &#xd;
-		Product ID&#xd;
-		Name&#xd;
+		Salt Water fish from Australia&#xd;
 	&#xd;
+	&#xd;
+		 EST-1 &#xd;
+	&#xd;
+	&#xd;
+		 Large&#xd;
+		 &#xd;
+		 &#xd;
+		Angelfish &#xd;
+	&#xd;
+	&#xd;
+		Angelfish&#xd;
 	&#xd;
 	&#xd;
 		&#xd;
+        Back ordered.&#xd;
+       &#xd;
+	&#xd;
+	&#xd;
+		$16.50&#xd;
 	&#xd;
 &#xd;
+	&#xd;
+		Add to Cart&#xd;
+	&#xd;
 ' or . = '&#xd;
 	&#xd;
-		 &#xd;
-		Product ID&#xd;
-		Name&#xd;
+		Salt Water fish from Australia&#xd;
 	&#xd;
+	&#xd;
+		 EST-1 &#xd;
+	&#xd;
+	&#xd;
+		 Large&#xd;
+		 &#xd;
+		 &#xd;
+		Angelfish &#xd;
+	&#xd;
+	&#xd;
+		Angelfish&#xd;
 	&#xd;
 	&#xd;
 		&#xd;
+        Back ordered.&#xd;
+       &#xd;
+	&#xd;
+	&#xd;
+		$16.50&#xd;
 	&#xd;
 &#xd;
+	&#xd;
+		Add to Cart&#xd;
+	&#xd;
 ')]</value>
-      <webElementGuid>48e655cf-3a01-45c7-95ff-a3669da215c1</webElementGuid>
+      <webElementGuid>0bf024e2-5b5a-4a6a-9896-0b2a72aca43c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
